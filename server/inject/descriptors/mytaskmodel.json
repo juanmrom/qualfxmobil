@@ -38,5 +38,5 @@
     }
   },
   "connect": [],
-  "selector": "#content"
+  "selector": "#myTask-body"
 }
