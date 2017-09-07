@@ -3,25 +3,31 @@
     "type": "object",
     "comment": "",
     "properties": {
-      "processname": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "activityname": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "processnumber": {
+      "tasks": {
         "type": "array",
         "items": {
           "type": "object",
           "properties": {
-            "processnumber": {
+            "processname": {
               "type": "string"
+            },
+            "activityname": {
+              "type": "string"
+            },
+            "proceses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "processnumber": {
+                    "type": "string"
+                  },
+                  "deadline": {
+                    "type": "date",
+                    "format": "MM/DD/YYYY"
+                  }
+                }
+              }
             }
           }
         }
