@@ -15,7 +15,7 @@
           "activityname": {
             "type": "string",
             "selector": ".nested-clickable",
-            "control": "property.innerHTML"
+            "control": "property.innerText"
           },
           "proceses": {
             "type": "array",
