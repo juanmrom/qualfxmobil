@@ -10,7 +10,7 @@
           "processname": {
             "type": "string",
             "selector": ".result-data",
-            "control": "property.innerHTML"
+            "control": "property.innerText"
           },
           "activityname": {
             "type": "string",
