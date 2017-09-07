@@ -13,7 +13,9 @@
             "control": "property.innerText"
           },
           "activityname": {
-            "type": "string"
+            "type": "string",
+            "selector": ".nested-clickable",
+            "control": "property.innerHTML"
           },
           "proceses": {
             "type": "array",
