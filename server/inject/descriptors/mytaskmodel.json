@@ -33,9 +33,9 @@
             }
           }
         }
-      }
+      },
+      "selectorAll": "[id^='app-id']"
     }
   },
-  "connect": [],
-  "selector": "[id^='app-id']"
+  "connect": []
 }
