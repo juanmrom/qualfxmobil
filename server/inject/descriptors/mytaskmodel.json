@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "[id^='app-id']"
+      "selectorAll": "#mytasks-container > .search-result-item"
     }
   },
   "connect": []
