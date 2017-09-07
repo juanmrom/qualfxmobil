@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "processname": {
+            "type": "string",
+            "selector": ".result-data",
+            "control": "property.innerText"
+          },
+          "activityname": {
+            "type": "string",
+            "selector": ".search-result-item",
+            "control": "property.innerText"
+          },
+          "proceses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "processnumber": {
+                  "type": "string"
+                },
+                "deadline": {
+                  "type": "date",
+                  "format": "MM/DD/YYYY"
+                }
+              }
+            }
+          }
+        }
+      },
+      "selectorAll": "#mytasks-container > .search-result-item"
+    }
+  },
+  "connect": []
+}
