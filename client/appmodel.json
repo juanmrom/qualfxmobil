@@ -4,10 +4,16 @@
     "comment": "",
     "properties": {
       "processname": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "activityname": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "processnumber": {
         "type": "array",

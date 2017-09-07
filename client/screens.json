@@ -25,7 +25,8 @@
       "id": "mytask",
       "name": "mytask",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "mytaskmodel"
     }
   ],
   "sourceAppId": "_blank",
