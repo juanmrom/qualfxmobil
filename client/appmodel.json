@@ -1,1 +1,25 @@
-{}
+{
+  "mytaskmodel": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "processname": {
+        "type": "string"
+      },
+      "activityname": {
+        "type": "string"
+      },
+      "processnumber": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "processnumber": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
