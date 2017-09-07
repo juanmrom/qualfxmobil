@@ -8,7 +8,9 @@
         "type": "object",
         "properties": {
           "processname": {
-            "type": "string"
+            "type": "string",
+            "selector": ".result-data",
+            "control": "property.innerText"
           },
           "activityname": {
             "type": "string"
