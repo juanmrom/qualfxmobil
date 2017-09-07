@@ -14,7 +14,7 @@
           },
           "activityname": {
             "type": "string",
-            "selector": ".nested-clickable",
+            "selector": "[data-actname='ImplementActivities']",
             "control": "property.innerText"
           },
           "proceses": {
