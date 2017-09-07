@@ -8,14 +8,10 @@
         "type": "object",
         "properties": {
           "processname": {
-            "type": "string",
-            "selector": ".result-data",
-            "control": "property.innerText"
+            "type": "string"
           },
           "activityname": {
-            "type": "string",
-            "selector": ".search-result-item",
-            "control": "property.innerText"
+            "type": "string"
           },
           "proceses": {
             "type": "array",
@@ -34,7 +30,7 @@
           }
         }
       },
-      "selectorAll": "#mytasks-container > .search-result-item"
+      "selectorAll": "[id^='app-id']"
     }
   },
   "connect": []
