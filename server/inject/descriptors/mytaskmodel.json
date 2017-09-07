@@ -38,5 +38,5 @@
     }
   },
   "connect": [],
-  "selector": "[id^='app-id']"
+  "selector": "#content"
 }
