@@ -1,0 +1,17 @@
+{
+  "remoteAppConfig": {
+    "loginType": "process",
+    "cmd": "node",
+    "args": [
+      "<%= transformAppsDir %>/qualfxmobil/server/start.js",
+      "--sessionID",
+      ":sessionID"
+    ]
+  },
+  "appData": {
+    "appType": "local",
+    "appZip": "<%= staticStorage %>qualfxmobil/client.zip",
+    "sessionCheck": false,
+    "smartuxApp": "<%= staticStorage %>qualfxmobil/smartuxApp.json"
+  }
+}
