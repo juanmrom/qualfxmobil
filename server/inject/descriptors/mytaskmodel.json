@@ -30,10 +30,6 @@
                   "control": "property.innerText"
                 }
               }
-            },
-            "selectorAll": {
-              "fn": "getActivities;function getActivities(){return $('.search-result-item')}",
-              "selectorAll": ""
             }
           }
         }
