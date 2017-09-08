@@ -27,6 +27,14 @@
                 "type": "string",
                 "selector": ".result-data",
                 "control": "property.innerText"
+              },
+              "activitiesNames": {
+                "type": "array",
+                "selectorAll": "#myDelegate-body",
+                "items": {
+                  "type": "object",
+                  "properties": {}
+                }
               }
             }
           }
