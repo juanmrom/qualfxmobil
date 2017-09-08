@@ -16,7 +16,8 @@
         "properties": {
           "processname": {
             "type": "string",
-            "control": "property.innerHTML"
+            "control": "property.innerText",
+            "selector": ".search-result-item"
           }
         }
       }
