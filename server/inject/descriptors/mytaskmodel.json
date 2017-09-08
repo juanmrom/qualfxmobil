@@ -18,7 +18,7 @@
     "clickCar": {
       "type": "action",
       "selector": "#app-id-1.search-result-item.dark-gray.selected-task",
-      "control": "action.link"
+      "control": "action.button"
     }
   },
   "connect": []
