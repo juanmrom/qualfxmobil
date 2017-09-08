@@ -24,7 +24,13 @@
             "selectorAll": "div",
             "items": {
               "type": "object",
-              "properties": {}
+              "properties": {
+                "activityname": {
+                  "type": "string",
+                  "selector": "div",
+                  "control": "property.innerHTML"
+                }
+              }
             }
           }
         }
