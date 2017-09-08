@@ -6,6 +6,11 @@
       "type": "identifier",
       "selector": "h1:first",
       "control": "exists"
+    },
+    "mytask": {
+      "type": "string",
+      "selector": ".result-data",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
