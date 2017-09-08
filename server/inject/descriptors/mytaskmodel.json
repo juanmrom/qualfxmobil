@@ -14,7 +14,7 @@
       "properties": {
         "taskDescription": {
           "type": "string",
-          "selector": ".panel-header",
+          "selector": "h1",
           "control": "property.innerText"
         }
       }
