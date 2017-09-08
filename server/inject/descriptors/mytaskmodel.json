@@ -9,19 +9,25 @@
       "selectContains": "My Tasks"
     },
     "myTasks": {
-      "type": "array",
-      "selectorAll": "#myTask-body",
-      "items": {
-        "type": "object",
-        "properties": {}
+      "type": "object",
+      "selector": "#myTask-body",
+      "properties": {
+        "taskDescription": {
+          "type": "string",
+          "selector": ".panel-header",
+          "control": "property.innerText"
+        }
       }
     },
     "myDelegates": {
-      "type": "array",
-      "selectorAll": "#myDelegate-body",
-      "items": {
-        "type": "object",
-        "properties": {}
+      "type": "object",
+      "selector": "#myDelegate-body",
+      "properties": {
+        "delegateDescription": {
+          "type": "string",
+          "selector": "#myDelegate-body",
+          "control": "property.innerHTML"
+        }
       }
     }
   },
