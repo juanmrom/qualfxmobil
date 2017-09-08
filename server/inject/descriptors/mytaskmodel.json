@@ -25,7 +25,7 @@
             "properties": {
               "processName": {
                 "type": "string",
-                "selector": "h1",
+                "selector": ".result-data",
                 "control": "property.innerText"
               }
             }
