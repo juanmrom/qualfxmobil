@@ -12,14 +12,13 @@
       "selectorAll": ".result-data",
       "items": {
         "type": "object",
-        "properties": {
-          "task": {
-            "type": "string",
-            "selector": ".result-data",
-            "control": "property.innerHTML"
-          }
-        }
+        "properties": {}
       }
+    },
+    "clickCar": {
+      "type": "action",
+      "selector": ".result-data",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
