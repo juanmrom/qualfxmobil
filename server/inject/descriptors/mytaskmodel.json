@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "[id|=result-container] table tbody tr td"
+      "selectorAll": "[id|=result-container] table tbody tr"
     },
     "ismytask": {
       "type": "identifier",
