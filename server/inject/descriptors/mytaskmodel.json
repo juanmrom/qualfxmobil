@@ -22,7 +22,7 @@
           "processactivity": {
             "type": "string",
             "control": "property.innerText",
-            "selector": ".search-result-item"
+            "selector": ".nested-clickable"
           }
         }
       }
