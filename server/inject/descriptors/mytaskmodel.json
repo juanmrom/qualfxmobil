@@ -18,6 +18,14 @@
             "type": "string",
             "control": "property.innerText",
             "selector": "strong"
+          },
+          "activities": {
+            "type": "array",
+            "selectorAll": "div",
+            "items": {
+              "type": "object",
+              "properties": {}
+            }
           }
         }
       }
