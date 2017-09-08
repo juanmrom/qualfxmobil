@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "[id|=result-container] tr"
+      "selectorAll": "#result-container-1_0 tbody tr"
     },
     "ismytask": {
       "type": "identifier",
