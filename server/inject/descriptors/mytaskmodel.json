@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "[id|=app-id]"
+      "selectorAll": "div"
     },
     "ismytask": {
       "type": "identifier",
