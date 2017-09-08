@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "#mytasks-container"
+      "selectorAll": "[id|=result-container]"
     },
     "ismytask": {
       "type": "identifier",
