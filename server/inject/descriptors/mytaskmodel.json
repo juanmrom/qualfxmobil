@@ -22,7 +22,7 @@
           "processactivity": {
             "type": "string",
             "control": "property.innerText",
-            "selector": "div"
+            "selector": "div:first-child"
           }
         }
       }
