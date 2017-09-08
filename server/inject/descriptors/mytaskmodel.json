@@ -17,7 +17,7 @@
           "processname": {
             "type": "string",
             "control": "property.innerText",
-            "selector": ".result-data"
+            "selector": "strong"
           }
         }
       }
