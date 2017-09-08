@@ -37,6 +37,5 @@
       "selectorAll": "#mytasks-container > .search-result-item"
     }
   },
-  "connect": [],
-  "selector": "#myTask-body"
+  "connect": []
 }
