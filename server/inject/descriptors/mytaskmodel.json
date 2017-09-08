@@ -14,7 +14,7 @@
           },
           "activityname": {
             "type": "string",
-            "selector": "[data-actname='ImplementActivities']",
+            "selector": ".task-content",
             "control": "property.innerText"
           },
           "proceses": {
