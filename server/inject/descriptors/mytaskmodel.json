@@ -10,33 +10,19 @@
     },
     "myTasks": {
       "type": "object",
-      "selector": "#myTask-body",
+      "selector": "#mytasks-container",
       "properties": {
         "taskDescription": {
           "type": "string",
           "selector": "h1",
           "control": "property.innerText"
         },
-        "processType": {
+        "myTasks": {
           "type": "array",
-          "selectorAll": "[id|=app-id]",
+          "selectorAll": "#mytasks-container",
           "items": {
             "type": "object",
-            "properties": {
-              "processName": {
-                "type": "string",
-                "selector": ".result-data",
-                "control": "property.innerText"
-              },
-              "activitiesNames": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {}
-                },
-                "selectorAll": "[id|=overview]"
-              }
-            }
+            "properties": {}
           }
         }
       }
