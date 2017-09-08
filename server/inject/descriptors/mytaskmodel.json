@@ -38,7 +38,7 @@
     },
     "ismytask": {
       "type": "identifier",
-      "selector": "#myTask-body .panel-header-inside",
+      "selector": "h1:first",
       "control": "exists"
     }
   },
