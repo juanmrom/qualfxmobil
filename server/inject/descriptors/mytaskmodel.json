@@ -18,6 +18,11 @@
             "type": "string",
             "control": "property.innerText",
             "selector": "strong"
+          },
+          "processactivity": {
+            "type": "string",
+            "control": "property.innerText",
+            "selector": ".result-data"
           }
         }
       }
