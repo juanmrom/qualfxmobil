@@ -14,7 +14,7 @@
           },
           "activityname": {
             "type": "string",
-            "selector": ".search-result-item",
+            "selector": "search-result-item",
             "control": "property.innerText"
           },
           "proceses": {
