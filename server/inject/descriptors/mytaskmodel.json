@@ -10,7 +10,7 @@
     },
     "mytask": {
       "type": "array",
-      "selectorAll": "[id|=app-id]",
+      "selectorAll": ".result-data",
       "items": {
         "type": "object",
         "properties": {
