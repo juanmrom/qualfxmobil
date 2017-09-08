@@ -8,9 +8,17 @@
       "selector": ".panel-header-inside h1",
       "selectContains": "My Tasks"
     },
-    "mytask": {
+    "myTasks": {
       "type": "array",
-      "selectorAll": ".panel-header",
+      "selectorAll": "#myTask-body",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    "myDelegates": {
+      "type": "array",
+      "selectorAll": "#myDelegate-body",
       "items": {
         "type": "object",
         "properties": {}
