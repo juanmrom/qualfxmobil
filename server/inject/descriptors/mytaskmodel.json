@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "#mytasks-container"
+      "selectorAll": "[id|=app-id]"
     },
     "ismytask": {
       "type": "identifier",
