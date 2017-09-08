@@ -12,17 +12,19 @@
       "type": "object",
       "selector": "#mytasks-container",
       "properties": {
-        "taskDescription": {
-          "type": "string",
-          "selector": "h1",
-          "control": "property.innerText"
-        },
         "myTasks": {
           "type": "array",
           "selectorAll": "#mytasks-container",
           "items": {
             "type": "object",
-            "properties": {}
+            "properties": {
+              "processName": {
+                "type": "string",
+                "selector": "div",
+                "control": "property.innerText",
+                "selectIndex": 1
+              }
+            }
           }
         }
       }
