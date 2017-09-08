@@ -35,6 +35,11 @@
         }
       },
       "selectorAll": "#mytasks-container > .search-result-item"
+    },
+    "ismytask": {
+      "type": "identifier",
+      "selector": "#myTask-body .panel-header-inside",
+      "control": "property.innerText"
     }
   },
   "connect": []
