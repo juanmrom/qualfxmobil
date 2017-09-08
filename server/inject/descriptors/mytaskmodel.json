@@ -28,7 +28,7 @@
                 "activityname": {
                   "type": "string",
                   "selector": "div",
-                  "control": "property.innerHTML"
+                  "control": "property.innerText"
                 }
               }
             }
