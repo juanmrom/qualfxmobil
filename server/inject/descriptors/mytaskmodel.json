@@ -19,10 +19,13 @@
             "control": "property.innerText",
             "selector": "strong"
           },
-          "processactivity": {
-            "type": "string",
-            "control": "property.innerText",
-            "selector": ".task-content"
+          "activityname": {
+            "type": "array",
+            "selectorAll": ".task-content",
+            "items": {
+              "type": "object",
+              "properties": {}
+            }
           }
         }
       }
