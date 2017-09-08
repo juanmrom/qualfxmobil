@@ -25,7 +25,7 @@
       "properties": {
         "delegateDescription": {
           "type": "string",
-          "selector": "#myDelegate-body",
+          "selector": "h1",
           "control": "property.innerHTML"
         }
       }
