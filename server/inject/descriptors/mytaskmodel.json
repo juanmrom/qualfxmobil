@@ -21,7 +21,6 @@
           },
           "activities": {
             "type": "array",
-            "selectorAll": ".nested-clickable",
             "items": {
               "type": "object",
               "properties": {
@@ -31,6 +30,10 @@
                   "control": "property.innerText"
                 }
               }
+            },
+            "selectorAll": {
+              "fn": "getActivities",
+              "selectorAll": ""
             }
           }
         }
