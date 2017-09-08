@@ -5,7 +5,7 @@
     "ismytask": {
       "type": "identifier",
       "control": "exists",
-      "selector": ".panel-header-inside h1:first",
+      "selector": ".panel-header-inside h1",
       "selectContains": "My Tasks"
     },
     "mytask": {
