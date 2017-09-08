@@ -21,7 +21,7 @@
           },
           "activities": {
             "type": "array",
-            "selectorAll": ".task-content",
+            "selectorAll": ".search-result-item",
             "items": {
               "type": "object",
               "properties": {
