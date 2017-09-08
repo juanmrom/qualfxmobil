@@ -10,35 +10,11 @@
     },
     "mytask": {
       "type": "array",
-      "selectorAll": ".result-data",
+      "selectorAll": ".panel-header",
       "items": {
         "type": "object",
-        "properties": {
-          "processname": {
-            "type": "string",
-            "control": "property.innerText",
-            "selector": "strong"
-          },
-          "activities": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "activityname": {
-                  "type": "string",
-                  "selector": "div",
-                  "control": "property.innerText"
-                }
-              }
-            }
-          }
-        }
+        "properties": {}
       }
-    },
-    "clickCar": {
-      "type": "action",
-      "selector": "#app-id-1.search-result-item.dark-gray.selected-task",
-      "control": "action.button"
     }
   },
   "connect": []
