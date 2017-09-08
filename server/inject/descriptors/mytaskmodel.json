@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "div"
+      "selectorAll": ".search-result-item"
     },
     "ismytask": {
       "type": "identifier",
