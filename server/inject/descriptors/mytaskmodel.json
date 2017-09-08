@@ -33,7 +33,7 @@
             },
             "selectorAll": {
               "fn": "getActivities;function getActivities(){return $('.search-result-item')}",
-              "selector": ""
+              "selectorAll": ""
             }
           }
         }
