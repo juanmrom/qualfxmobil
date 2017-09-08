@@ -9,7 +9,7 @@
         "properties": {
           "processname": {
             "type": "string",
-            "selector": ".result-data",
+            "selector": "result-data",
             "control": "property.innerText"
           },
           "activityname": {
