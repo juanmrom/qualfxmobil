@@ -4,7 +4,9 @@
   "properties": {
     "ismytask": {
       "type": "identifier",
-      "control": "exists"
+      "control": "exists",
+      "selector": ".panel-header-inside h1:first",
+      "selectContains": "My Tasks"
     },
     "mytask": {
       "type": "array",
