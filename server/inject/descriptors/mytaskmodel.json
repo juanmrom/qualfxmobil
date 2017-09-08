@@ -22,7 +22,7 @@
           "processactivity": {
             "type": "string",
             "control": "property.innerText",
-            "selector": ".search-result-item div:first-child"
+            "selector": ".search-result-item"
           }
         }
       }
