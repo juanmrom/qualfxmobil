@@ -14,7 +14,7 @@
       "properties": {
         "myTasks": {
           "type": "array",
-          "selectorAll": "#myTask-body",
+          "selectorAll": "#mytasks-container",
           "items": {
             "type": "object",
             "properties": {
