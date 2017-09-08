@@ -8,9 +8,12 @@
       "control": "exists"
     },
     "mytask": {
-      "type": "string",
-      "selector": ".result-data",
-      "control": "property.innerHTML"
+      "type": "array",
+      "selectorAll": ".result-data",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
