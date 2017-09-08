@@ -21,7 +21,7 @@
           },
           "activities": {
             "type": "array",
-            "selectorAll": ".search-result-item",
+            "selectorAll": ".nested-clickable",
             "items": {
               "type": "object",
               "properties": {
