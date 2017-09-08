@@ -33,7 +33,8 @@
             }
           }
         }
-      }
+      },
+      "selectorAll": "#mytasks-container"
     },
     "ismytask": {
       "type": "identifier",
