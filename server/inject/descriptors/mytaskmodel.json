@@ -32,8 +32,8 @@
               }
             },
             "selectorAll": {
-              "fn": "getActivities",
-              "selectorAll": ""
+              "fn": "getActivities;function getActivities(){return $('.search-result-item')}",
+              "selector": ""
             }
           }
         }
