@@ -16,6 +16,20 @@
           "type": "string",
           "selector": "h1",
           "control": "property.innerText"
+        },
+        "processType": {
+          "type": "array",
+          "selectorAll": ".result-data",
+          "items": {
+            "type": "object",
+            "properties": {
+              "processName": {
+                "type": "string",
+                "selector": "h1",
+                "control": "property.innerText"
+              }
+            }
+          }
         }
       }
     },
