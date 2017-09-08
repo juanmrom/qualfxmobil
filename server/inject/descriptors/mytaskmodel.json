@@ -39,7 +39,7 @@
     "ismytask": {
       "type": "identifier",
       "selector": "#myTask-body .panel-header-inside",
-      "control": "property.innerText"
+      "control": "exists"
     }
   },
   "connect": []
