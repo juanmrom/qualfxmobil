@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "#result-container-1_0 tbody tr"
+      "selectorAll": "#app-id-1"
     },
     "ismytask": {
       "type": "identifier",
